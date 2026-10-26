@@ -1,24 +1,17 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Laravel environment and dependencies
+ngja-helpdesk-backend/.env
+ngja-helpdesk-backend/vendor/
+ngja-helpdesk-backend/.phpunit.result.cache
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# Laravel local database and generated files
+ngja-helpdesk-backend/database/*.sqlite
+ngja-helpdesk-backend/storage/logs/*.log
+ngja-helpdesk-backend/storage/framework/cache/data/*
+ngja-helpdesk-backend/storage/framework/sessions/*
+ngja-helpdesk-backend/storage/framework/views/*.php
+ngja-helpdesk-backend/bootstrap/cache/*.php
+
+# Frontend dependencies and build files
+ngja-helpdesk-frontend/node_modules/
+ngja-helpdesk-frontend/dist/
